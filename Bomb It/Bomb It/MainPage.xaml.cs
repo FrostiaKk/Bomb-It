@@ -9,8 +9,6 @@ using Xamarin.Forms;
 
 namespace Bomb_It
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -28,15 +26,19 @@ namespace Bomb_It
             if (button.Text == bomb)
             {
                 Vibration.Vibrate();
-                await DisplayAlert("Bomba wybuchła", "Koniec gry", "Zagraj jeszcze raz");
-                bomb = new Random().Next(1, 4).ToString();
+                await Navigation.PushAsync(new GameOver(Scores),false);
+                //await DisplayAlert("Bomba wybuchła", "Koniec gry", "Zagraj jeszcze raz");
+                Scores = 0;
+                bomb = new Random().Next(1, 5).ToString();
             }
             else
             {
                 Scores += 1;
                 await DisplayAlert("Bomba rozbrojona", "Wynik: " + Scores, "Kontynuuj");
-                bomb = new Random().Next(1, 4).ToString();
+                bomb = new Random().Next(1, 5).ToString();
             }
         }
+
+        
     }
 }

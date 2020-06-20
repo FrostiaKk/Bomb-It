@@ -32,6 +32,11 @@
                 HorizontalOptions="Center"
                 Clicked="ButtonClicked"/>
 
+        <Button Text="Ranking"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                />
+
     </StackLayout>
 
 </ContentPage>

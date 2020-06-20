@@ -10,7 +10,7 @@ namespace Bomb_It
         {
             InitializeComponent();
 
-            MainPage = new Bomb_It.MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()
