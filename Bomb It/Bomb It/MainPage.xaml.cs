@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -26,10 +27,10 @@ namespace Bomb_It
             if (button.Text == bomb)
             {
                 Vibration.Vibrate();
+                bomb = new Random().Next(1, 5).ToString();
                 await Navigation.PushAsync(new GameOver(Scores),false);
                 //await DisplayAlert("Bomba wybuchła", "Koniec gry", "Zagraj jeszcze raz");
                 Scores = 0;
-                bomb = new Random().Next(1, 5).ToString();
             }
             else
             {
@@ -37,6 +38,22 @@ namespace Bomb_It
                 await DisplayAlert("Bomba rozbrojona", "Wynik: " + Scores, "Kontynuuj");
                 bomb = new Random().Next(1, 5).ToString();
             }
+        }
+
+        async void RankingClicked(object sender, EventArgs e)
+        {
+            var url = "https://retrievedatabase20200620234523.azurewebsites.net/api/RetrieveDatabase?code=QHe/84XZV2IrMQ4tFuPFtStsQH3OvkldV7Hr9bzrS/wWzJcf0r0/8Q==";
+            var client = new HttpClient();
+            try
+            {
+                var result = await client.GetStreamAsync(url);
+                Console.WriteLine(result);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error");
+            }
+            await Navigation.PushAsync(new Ranking(), false);
         }
 
         

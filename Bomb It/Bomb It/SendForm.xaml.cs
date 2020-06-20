@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
@@ -13,6 +14,7 @@ namespace Bomb_It
     public partial class SendForm : ContentPage
     {
         private int Score;
+        private string country;
         public SendForm(string score)
         {
             InitializeComponent();
@@ -31,22 +33,7 @@ namespace Bomb_It
                 var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
 
                 var placemark = placemarks?.FirstOrDefault();
-                if (placemark != null)
-                {
-                    var geocodeAddress =
-                        $"AdminArea:       {placemark.AdminArea}\n" +
-                        $"CountryCode:     {placemark.CountryCode}\n" +
-                        $"CountryName:     {placemark.CountryName}\n" +
-                        $"FeatureName:     {placemark.FeatureName}\n" +
-                        $"Locality:        {placemark.Locality}\n" +
-                        $"PostalCode:      {placemark.PostalCode}\n" +
-                        $"SubAdminArea:    {placemark.SubAdminArea}\n" +
-                        $"SubLocality:     {placemark.SubLocality}\n" +
-                        $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
-                        $"Thoroughfare:    {placemark.Thoroughfare}\n";
-
-                    Console.WriteLine(placemark.CountryName);
-                }
+                country = placemark.CountryName;
             }
             catch (FeatureNotSupportedException fnsEx)
             {
@@ -56,6 +43,19 @@ namespace Bomb_It
             {
                 // Handle exception that may have occurred in geocoding
             }
+            var url = "https://addtodatabase20200620205018.azurewebsites.net/" +
+                $"api/AddToDatabase?code=iL0EyW6eV7ZLdlX7eNVS3giwL4AhC9XtyhN8zeZoyYFIkBhFylV00w==&name={Nick.Text}&score={Score}&country={country}";
+            var client = new HttpClient();
+            try
+            {
+                var result = await client.GetStringAsync(url);
+                Console.WriteLine(result);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error");
+            }
+            await Navigation.PopToRootAsync();
         }
 
     }

@@ -10,7 +10,7 @@
             <Label Text="Podaj swój nick:"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        <Entry MinimumWidthRequest="10" MinimumHeightRequest="10"
+        <Entry MinimumWidthRequest="10" MinimumHeightRequest="10" x:Name="Nick"
                Placeholder="Nick" HorizontalOptions="Fill"
                VerticalOptions="StartAndExpand"></Entry>
         <Button Text="Wyślij"

@@ -18,3 +18,4 @@ C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.pdb
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\GameOver.xaml.g.cs
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\SendForm.xaml.g.cs
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Ranking.xaml.g.cs
