@@ -19,6 +19,45 @@ namespace Bomb_It
             Score = Int32.Parse(score);
         }
 
+        async void SendClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                var location = await Geolocation.GetLastKnownLocationAsync();
+
+                var lat = location.Latitude;
+                var lon = location.Longitude;
+
+                var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
+
+                var placemark = placemarks?.FirstOrDefault();
+                if (placemark != null)
+                {
+                    var geocodeAddress =
+                        $"AdminArea:       {placemark.AdminArea}\n" +
+                        $"CountryCode:     {placemark.CountryCode}\n" +
+                        $"CountryName:     {placemark.CountryName}\n" +
+                        $"FeatureName:     {placemark.FeatureName}\n" +
+                        $"Locality:        {placemark.Locality}\n" +
+                        $"PostalCode:      {placemark.PostalCode}\n" +
+                        $"SubAdminArea:    {placemark.SubAdminArea}\n" +
+                        $"SubLocality:     {placemark.SubLocality}\n" +
+                        $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
+                        $"Thoroughfare:    {placemark.Thoroughfare}\n";
+
+                    Console.WriteLine(placemark.CountryName);
+                }
+            }
+            catch (FeatureNotSupportedException fnsEx)
+            {
+                // Feature not supported on device
+            }
+            catch (Exception ex)
+            {
+                // Handle exception that may have occurred in geocoding
+            }
+        }
+
     }
 
 }

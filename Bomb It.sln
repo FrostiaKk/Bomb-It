@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bomb It.Android", "Bomb It\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bomb It", "Bomb It\Bomb It\Bomb It.csproj", "{B677AD0C-7FC4-4E6F-B585-6D729185898E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToDatabase", "AddToDatabase\AddToDatabase.csproj", "{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B677AD0C-7FC4-4E6F-B585-6D729185898E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B677AD0C-7FC4-4E6F-B585-6D729185898E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B677AD0C-7FC4-4E6F-B585-6D729185898E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

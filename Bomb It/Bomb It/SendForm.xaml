@@ -16,7 +16,7 @@
         <Button Text="Wyślij"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                />
+                Clicked="SendClicked"/>
     </StackLayout>
 
 </ContentPage>
