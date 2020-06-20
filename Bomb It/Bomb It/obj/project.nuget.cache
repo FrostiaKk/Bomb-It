@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dI0ACfh7PJ1lvpiXRPdmCz0Y5lJRwvCnt3AV6YBd0U+otol5LfX9zV3ytnJsGW4GEQWWTlKM24XybJ4JXU2J/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mlody\\Documents\\GitHub\\Bomb It\\Bomb It\\Bomb It\\Bomb It.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mlody\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mlody\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mlody\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}

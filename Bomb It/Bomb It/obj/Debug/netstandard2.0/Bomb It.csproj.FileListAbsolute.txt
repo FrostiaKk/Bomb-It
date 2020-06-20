@@ -1,0 +1,18 @@
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Bomb It.deps.json
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Bomb It.dll
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\ref\Bomb It.dll
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Bomb It.pdb
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csprojAssemblyReference.cache
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.AssemblyInfoInputs.cache
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.AssemblyInfo.cs
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csproj.CoreCompileInputs.cache
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csproj.CopyComplete
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.dll
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\ref\Bomb It.dll
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.pdb
