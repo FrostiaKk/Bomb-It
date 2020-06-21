@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bomb It", "Bomb It\Bomb It\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddToDatabase", "AddToDatabase\AddToDatabase.csproj", "{A3689F26-A0C3-4D3E-8008-30BDC3616FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetrieveDatabase", "RetrieveDatabase\RetrieveDatabase.csproj", "{715F4849-7DA3-4FD0-8825-5F1F6E6EC574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetrieveDatabase", "RetrieveDatabase\RetrieveDatabase.csproj", "{715F4849-7DA3-4FD0-8825-5F1F6E6EC574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseLog", "DatabaseLog\DatabaseLog.csproj", "{F6896C9B-B5F5-4F61-AE5D-3F2F64E9FD6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{715F4849-7DA3-4FD0-8825-5F1F6E6EC574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{715F4849-7DA3-4FD0-8825-5F1F6E6EC574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{715F4849-7DA3-4FD0-8825-5F1F6E6EC574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6896C9B-B5F5-4F61-AE5D-3F2F64E9FD6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6896C9B-B5F5-4F61-AE5D-3F2F64E9FD6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6896C9B-B5F5-4F61-AE5D-3F2F64E9FD6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6896C9B-B5F5-4F61-AE5D-3F2F64E9FD6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
