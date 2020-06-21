@@ -35,7 +35,7 @@
         <Button Text="Ranking"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                />
+                Clicked="RankingClicked"/>
 
     </StackLayout>
 

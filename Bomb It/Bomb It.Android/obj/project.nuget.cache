@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "eywWZGLJcxzgN4nU5pJJRI2BHp5gApb7puPoUeu4nICKg7EzRzqR2PEJPQNi9550oCBD67uqBH2CpjwUKM48iA==",
+  "dgSpecHash": "11x7syy+IY/DPL9T9Twj7sRBSluz5i5O/R4GGykJ091PAjgitBOO5qF8v684l+P7wbxW9iH/knZQFKJjAiB/iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mlody\\Documents\\GitHub\\Bomb It\\Bomb It\\Bomb It.Android\\Bomb It.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mlody\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\mlody\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\mlody\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\mlody\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\mlody\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

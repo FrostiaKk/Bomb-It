@@ -10,8 +10,6 @@ C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.AssemblyInfoInputs.cache
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.AssemblyInfo.cs
-C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csproj.CoreCompileInputs.cache
-C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csproj.CopyComplete
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.dll
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\ref\Bomb It.dll
@@ -19,3 +17,5 @@ C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\GameOver.xaml.g.cs
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\SendForm.xaml.g.cs
 C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Ranking.xaml.g.cs
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\Bomb It.csproj.CoreCompileInputs.cache
+C:\Users\mlody\Documents\GitHub\Bomb It\Bomb It\Bomb It\obj\Debug\netstandard2.0\XamlC.stamp

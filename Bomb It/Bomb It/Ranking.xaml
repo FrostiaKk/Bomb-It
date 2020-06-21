@@ -5,11 +5,193 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Bomb_It.Ranking">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+
+        <Label Text="Miejsce" Grid.Row="1" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="Nick" Grid.Row="1" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="Country" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="Score" Grid.Row="1" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="1" Grid.Row="2" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="2" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick1"/>
+        <Label Text="" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country1"/>
+        <Label Text="" Grid.Row="2" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score1"/>
+        <Label Text="2" Grid.Row="3" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="3" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick2"/>
+        <Label Text="" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country2"/>
+        <Label Text="" Grid.Row="3" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score2"/>
+        <Label Text="3" Grid.Row="4" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="4" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick3"/>
+        <Label Text="" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country3"/>
+        <Label Text="" Grid.Row="4" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score3"/>
+        <Label Text="4" Grid.Row="5" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="5" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick4"/>
+        <Label Text="" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country4"/>
+        <Label Text="" Grid.Row="5" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score4"/>
+        <Label Text="5" Grid.Row="6" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="6" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick5"/>
+        <Label Text="" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country5"/>
+        <Label Text="" Grid.Row="6" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score5"/>
+        <Label Text="6" Grid.Row="7" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="7" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick6"/>
+        <Label Text="" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country6"/>
+        <Label Text="" Grid.Row="7" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score6"/>
+        <Label Text="7" Grid.Row="8" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="8" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick7"/>
+        <Label Text="" Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country7"/>
+        <Label Text="" Grid.Row="8" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score7"/>
+        <Label Text="8" Grid.Row="9" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="9" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick8"/>
+        <Label Text="" Grid.Row="9" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country8"/>
+        <Label Text="" Grid.Row="9" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score8"/>
+        <Label Text="9" Grid.Row="10" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="10" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick9"/>
+        <Label Text="" Grid.Row="10" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country9"/>
+        <Label Text="" Grid.Row="10" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score9"/>
+        <Label Text="10" Grid.Row="11" Grid.Column="0"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="" Grid.Row="11" Grid.Column="1"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="nick10"/>
+        <Label Text="" Grid.Row="11" Grid.Column="2" Grid.ColumnSpan="2"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="country10"/>
+        <Label Text="" Grid.Row="11" Grid.Column="4"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               x:Name="score10"/>
+
+    </Grid>
 </ContentPage>

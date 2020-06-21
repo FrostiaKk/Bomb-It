@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -46,14 +47,16 @@ namespace Bomb_It
             var client = new HttpClient();
             try
             {
-                var result = await client.GetStreamAsync(url);
-                Console.WriteLine(result);
+                //HttpResponseMessage response = await client.GetAsync(url);
+                var json = await client.GetStringAsync(url);
+                dynamic data = JsonConvert.DeserializeObject(json);
+                await Navigation.PushAsync(new Ranking(data), false);
             }
             catch (Exception)
             {
                 Console.WriteLine("Error");
             }
-            await Navigation.PushAsync(new Ranking(), false);
+            
         }
 
         
